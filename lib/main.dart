@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_navigation/get_navigation.dart';
-import 'package:shopping_cart/home_screen.dart' show HomeScreen;
+import 'package:shopping_cart/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,7 +27,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-  
 
 class Product {
   final int id;
@@ -43,5 +42,4 @@ class Product {
     required this.imageUrl,
     required this.price,
   });
-
 }
